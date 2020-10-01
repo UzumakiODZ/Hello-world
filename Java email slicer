@@ -1,0 +1,26 @@
+package com.google;
+
+import java.util.Scanner;
+
+public class Main {
+
+  public static void main(String[] args) {
+
+  System.out.println("Enter your email");
+
+  Scanner my = new Scanner(System.in);
+
+  String x = my.nextLine();
+
+  String[] email = x.split("@");
+
+  System.out.println("your username is "+email[0]);
+
+  System.out.println("your email domain is "+email[1]);
+
+   
+
+  }
+
+}
+
